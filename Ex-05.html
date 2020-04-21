@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 5: </title>
+</head>
+<body>
+<script>
+    let star = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+    let stars = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+
+    function searchArrays() {
+
+        let flag = false;
+        for (let i = 0; i < stars.length; i++) {
+            if (keyword == star[i]) {
+                flag = true;
+                alert("Star: " + keyword + " in stars is: " + stars[i]);
+            }
+        }
+        if (!flag) {
+        alert("Data is unavailable!")
+        }
+    }
+
+    let keyword = prompt("Enter one Element of star: ");
+    searchArrays(keyword);
+
+</script>
+</body>
+</html>

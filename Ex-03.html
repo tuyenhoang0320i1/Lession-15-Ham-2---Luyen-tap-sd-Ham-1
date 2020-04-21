@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3: </title>
+</head>
+<body>
+<script>
+    function checkTwoParameters(a, b) {
+        if (a > b) {
+            return true;
+        }
+        if (a <= b) {
+            sum = a + b;
+            return sum;
+        }
+    }
+
+    function displayResultCheck(a, b) {
+        if ((a, b) == true) {
+            alert(a + " greater than " + b);
+        }
+        if (sum) {
+            alert("Sum of " + a + " and " + b + " is: " + sum);
+        }
+    }
+
+    let number1 = +prompt("Enter parameter one: ");
+    let number2 = +prompt("Enter parameter two: ");
+    checkTwoParameters(number1, number2);
+    displayResultCheck(number1, number2);
+
+</script>
+</body>
+</html>
